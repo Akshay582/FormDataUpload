@@ -1,0 +1,74 @@
+body{
+	color: white;
+	font-family: 'Arvo', serif;
+}
+
+/*Setting properties of the main container*/
+
+main{
+	display: inline-block;
+	background-image: linear-gradient(to right, #000000, #434343);
+	height: 97.5vh;
+	width: 50vw;
+}
+
+h2{
+	margin-left: 7%;
+	letter-spacing: 0.1rem;
+}
+
+#form{
+	/*	Centering the elements*/
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-25%, -55%);
+}
+
+#form p{
+	display: inline-block;
+	min-width: 10vw;
+	letter-spacing: 0.05rem;
+}
+
+button{
+	height: 80px;
+	width: 110px;
+	margin: 5% 0 0 18%;
+	font-size: 1rem;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	border-radius: 15px 30px;
+	font-weight: bold;
+}
+
+aside{
+	display: inline-block;
+	background-color: lightskyblue;
+	float: right;
+	height: 97.5vh;
+	width: 45vw;
+	margin-right: 1.5%;
+	overflow-y: scroll;
+}
+
+aside span{
+	background-color: darkblue;
+}
+
+.output{
+	margin-left: 3%;
+	padding-left: 2%;
+	margin-right: 3%;
+	padding-right: 2%;
+	height: 10vh;
+	background-color: blue;
+}
+
+.output p{
+	font-size: 1.3rem;
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+}
